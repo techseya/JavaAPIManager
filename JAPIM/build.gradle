@@ -26,6 +26,17 @@ android {
     }
 }
 
+publishing {
+    publications {
+        libraryProject(MavenPublication) {
+            groupId = 'lk.techseya'
+            artifactId = 'lk.techseya.JAPIM.app'
+            version = '0.1'
+        }
+    }
+}
+
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.7.0'
